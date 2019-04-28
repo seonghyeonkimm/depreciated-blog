@@ -71,7 +71,7 @@ const LayoutWrapper = styled.div`
 
 const HeaderHead = styled.h3<{ isRoot: boolean; children: any; }>`
   margin-top: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Spoqa Han Sans;
   margin-bottom: ${rhythm(1.5)};
   font-size: ${props => props.isRoot ? '2rem' : 'inherit'};
   line-height: ${props => props.isRoot ? '3rem' : 'inherit'};
