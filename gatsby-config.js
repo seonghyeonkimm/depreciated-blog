@@ -1,15 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `demian's devlog`,
+    author: `김성현`,
+    description: `김성현의 웹개발 관련 블로그입니다.`,
+    siteUrl: `https://kimseonghyeon.me`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `seonghyeon___`,
+      github: `impressor615`,
+      linkedin: `seonghyeon-kim-328757b7`,
     },
   },
   plugins: [
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

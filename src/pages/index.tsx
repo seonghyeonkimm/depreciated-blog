@@ -1,37 +1,17 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
+import Bio from "../components/Bio"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-interface Node {
-  node: {
-    excerpt: string;
-    frontmatter: {
-      title: string;
-      date: string;
-      description: string;
-    };
-    fields: {
-      slug: string;
-    }
-  }
-}
-
 interface IProps {
-  data: {
-    site: {
-      siteMetadata: {
-        title: string;
-      }
-    };
-    allMarkdownRemark: {
-      edges: Array<Node>
-    };
-  };
   location: string;
+  data: {
+    site: ISite;
+    allMarkdownRemark: IAllMarkdownRemark;
+  };
 }
 
 class BlogIndex extends React.Component<IProps> {
