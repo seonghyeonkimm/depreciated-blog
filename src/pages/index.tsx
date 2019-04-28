@@ -7,7 +7,9 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 interface IProps {
-  location: string;
+  location: {
+    pathname: string;
+  };
   data: {
     site: ISite;
     allMarkdownRemark: IAllMarkdownRemark;

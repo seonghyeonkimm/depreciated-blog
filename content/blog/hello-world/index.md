@@ -1,21 +1,12 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+date: "2019-04-28"
+description: 스스로 공부한 내용을 아무 배경지식 없는 사람에게도 설명할 수 있을 정도로 제대로 이해하고자 글들을 꾸준히 적어보려 합니다. 그 여정을 시작합니다. Hello World.
 ---
 
-This is my first post on my new fake blog! How exciting!
+매일 매일 공부하는 내용들을 머리로 이해했더라도, 실제로 글, 말, 혹은 코드로 풀어 내지 않으면 진정으로 내 것이 되기 힘들다고 생각합니다.
 
-I'm sure I'll write a lot more interesting things in the future.
+스스로 공부한 내용을 아무 배경지식 없는 사람에게도 설명할 수 있을 정도로 제대로 이해하고자 글들을 꾸준히 적어보려 합니다.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+가끔씩 놀러와 주세요!
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)

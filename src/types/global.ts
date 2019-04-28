@@ -7,7 +7,7 @@ interface IAllMarkdownRemark {
 }
 
 interface ISiteMetadata {
-  title?: string;
+  title: string;
   author?: string;
   social?: string;
 }
