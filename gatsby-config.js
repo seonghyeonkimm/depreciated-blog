@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `demian's devlog`,
+    title: `Demian's devlog`,
     author: `김성현`,
     description: `김성현의 웹개발 관련 블로그입니다.`,
     siteUrl: `https://kimseonghyeon.me`,
