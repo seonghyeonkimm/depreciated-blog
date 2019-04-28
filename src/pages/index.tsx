@@ -6,7 +6,35 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-class BlogIndex extends React.Component {
+interface Node {
+  node: {
+    excerpt: string;
+    frontmatter: {
+      title: string;
+      date: string;
+      description: string;
+    };
+    fields: {
+      slug: string;
+    }
+  }
+}
+
+interface IProps {
+  data: {
+    site: {
+      siteMetadata: {
+        title: string;
+      }
+    };
+    allMarkdownRemark: {
+      edges: Array<Node>
+    };
+  };
+  location: string;
+}
+
+class BlogIndex extends React.Component<IProps> {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
