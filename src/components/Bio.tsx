@@ -71,6 +71,7 @@ const ProfileImage = styled(Image)`
 const ProfileLink = styled.a`
   border-bottom: 1px solid black;
   font-weight: bold;
+  text-decoration: none;
 `;
 
 export default Bio
