@@ -149,12 +149,12 @@ type IntersectionProps = Omit<IState, 'value'> & {
 특히, React를 typescript로 작성할 때에 React 자체적으로 정의해둔 type들에 대해 잘 이해하고 있어야 적절하게 타입 정의를 할 수 있다.
 몇 가지만 알아보면,
 
-**1) ReactNode:** JSX에서 안에서 rendering이 가능한 모든 것.
-**2) FC, FunctionComponent:** React의 function component 타입
-**3) CSSPropperties:** JSX안에서 inlince style 타입
-**4) JSX.IntrinsicElements['elementName']:** 특정 html tag들에 기본적인 prop에 대한 내용들을 한방에 정의할 수 있다.
-**4) React.PropsWithChildren<PropType>:** children type이 정의 되어있는 React type
-**5) React.PropsWithRef<PropType>:** Ref Type이 정의 되어 있는 React Type
-**6: React.PropsWithoutRef<PropType>:** Ref를 제외한 React Type
+- **ReactNode:** JSX에서 안에서 rendering이 가능한 모든 것.
+- **FC, FunctionComponent:** React의 function component 타입
+- **CSSPropperties:** JSX안에서 inlince style 타입
+- **JSX.IntrinsicElements['elementName']:** 특정 html tag들에 기본적인 prop에 대한 내용들을 한방에 정의할 수 있다.
+- **React.PropsWithChildren<PropType>:** children type이 정의 되어있는 React type
+- **React.PropsWithRef<PropType>:** Ref Type이 정의 되어 있는 React Type
+- **React.PropsWithoutRef<PropType>:** Ref를 제외한 React Type
 
 나름대로 정확히 이해하고자 노력해야 겠다고 생각하면서 공부를 시작한거에 비해 너무 파편적으로 이해한 거 같아서 부끄럽다. 그래도 하나하나 나름대로 정리하고 공부하는 습관을 기르기 위해 글을 남긴다. 아직은 많이 조악하지만, **더 유용한 정보들을 나눌 수 있고 토론할 수 있는 날을 꿈꾸며** 글을 마무리 한다.
