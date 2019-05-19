@@ -47,6 +47,33 @@ const GlobalStyle = createGlobalStyle`
     box-shadow: none;
   }
 
-`;
+  main a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  blockquote {
+    margin: auto;
+  }
+
+  main div ul,
+  main div ol {
+    margin: 1.75em !important;
+  }
+
+  li {
+    margin-bottom: calc(1.75rem / 3);
+  }
+
+  h1, h2, h3 {
+    line-height: 1.3;
+  }
+
+  @media only screen and (max-width: 480px) {
+    ul, ol {
+      margin-left: auto;
+    }
+  }
+`
 
 export default GlobalStyle;
